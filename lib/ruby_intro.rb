@@ -70,7 +70,7 @@ class BookInStock
   end
   
   def isbn
-    @isbn
+    return @isbn
   end
   
   def isbn=(isbn)
@@ -81,7 +81,7 @@ class BookInStock
   end
   
   def price
-    @price
+    return @price
   end
   
   def price=(price)
